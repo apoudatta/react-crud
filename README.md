@@ -34,10 +34,13 @@ GET http://127.0.0.1:8000/api/companies/3
 
 ### 4. Update a Company
 
+```bash
 PUT http://127.0.0.1:8000/api/companies/3
+```
+
+Request Body (JSON):
 
 ```bash
-Request Body (JSON):
 {
 "name": "TaraExpress",
 "email": "opu@mail.com",

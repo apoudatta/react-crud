@@ -55,3 +55,9 @@ Request Body (JSON):
     "website": "https://sdf"
 }
 ```
+
+### 5. Delete a Blog
+
+```bash
+DELETE http://127.0.0.1:8000/api/companies/5
+```

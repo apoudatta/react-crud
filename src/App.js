@@ -48,6 +48,7 @@ const App = () => {
 
   const handleDelete = async (id) => {
     try {
+      console.log(id);
       await axios.delete(`${API_URL}/${id}`);
       fetchCompanies();
     } catch (error) {

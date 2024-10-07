@@ -37,7 +37,9 @@ Request Body (JSON)
 
 ### 3. Show a Single Company
 
+```bash
 GET http://127.0.0.1:8000/api/companies/3
+```
 
 ### 4. Update a Company
 

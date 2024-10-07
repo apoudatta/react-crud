@@ -11,7 +11,6 @@ const App = () => {
   const fetchCompanies = async () => {
     try {
       const response = await axios.get(API_URL);
-      console.log(response.data); // Log the response data
       setCompanies(response.data.data); // Set companies to the array in the data property
     } catch (error) {
       console.error("Error fetching companies:", error);
@@ -102,6 +101,7 @@ const App = () => {
       </form>
 
       <table className='w-full border text-center'>
+        <thead>
         <tr className='border'>
           <th>Company Name</th>
           <th>Email</th>
@@ -109,6 +109,8 @@ const App = () => {
           <th>Address</th>
           <th>Action</th>
         </tr>
+        </thead>
+        <tbody>
         {companies.map((company) => (
           <tr key={company.id} className="border p-2 mb-2 items-center">
             <td>
@@ -131,8 +133,9 @@ const App = () => {
                 Delete
               </button>
             </td>
-          </tr>
+            </tr>
         ))}
+        </tbody>
       </table>
     </div>
   );

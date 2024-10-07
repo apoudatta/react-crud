@@ -12,8 +12,9 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 ## API Doc
 
-1.  Get companies List
-    GET http://127.0.0.1:8000/api/companies
+### 1. Get companies List
+
+GET http://127.0.0.1:8000/api/companies
 
 ### 2. Create a New Company
 

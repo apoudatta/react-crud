@@ -14,19 +14,26 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 ### 1. Get companies List
 
+```bash
 GET http://127.0.0.1:8000/api/companies
+```
 
 ### 2. Create a New Company
 
+```bash
 POST http://127.0.0.1:8000/api/companies
+```
 
-Request Body (JSON):
+Request Body (JSON)
+
+```bash
 {
 "name" : "My Company",
 "email" : "apou@gmail.com",
 "address" : "apou",
 "website" : "https://mywebsite.com"
 }
+```
 
 ### 3. Show a Single Company
 
@@ -42,9 +49,9 @@ Request Body (JSON):
 
 ```bash
 {
-"name": "TaraExpress",
-"email": "opu@mail.com",
-"address": "sdf",
-"website": "https://sdf"
+    "name": "TaraExpress",
+    "email": "opu@mail.com",
+    "address": "sdf",
+    "website": "https://sdf"
 }
 ```

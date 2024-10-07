@@ -28,10 +28,10 @@ Request Body (JSON)
 
 ```bash
 {
-"name" : "My Company",
-"email" : "apou@gmail.com",
-"address" : "apou",
-"website" : "https://mywebsite.com"
+    "name" : "My Company",
+    "email" : "apou@gmail.com",
+    "address" : "apou",
+    "website" : "https://mywebsite.com"
 }
 ```
 

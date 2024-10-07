@@ -36,10 +36,12 @@ GET http://127.0.0.1:8000/api/companies/3
 
 PUT http://127.0.0.1:8000/api/companies/3
 
+```bash
 Request Body (JSON):
-`{
-    "name": "TaraExpress",
-    "email": "opu@mail.com",
-    "address": "sdf",
-    "website": "https://sdf"
-}`
+{
+"name": "TaraExpress",
+"email": "opu@mail.com",
+"address": "sdf",
+"website": "https://sdf"
+}
+```
